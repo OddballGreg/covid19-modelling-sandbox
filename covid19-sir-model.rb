@@ -11,7 +11,7 @@ def SIR_model(conditions, infection_rate, removal_rate, total_population)
   dI_dt = ((infection_rate*suseptible*infectious) / total_population) - removal_rate*infectious #change in infectious
   dR_dt = removal_rate*infectious #change in removed
 
-  [dS_dt.floor, dI_dt.floor, dR_dt.floor]
+  [dS_dt.floor, dI_dt.floor, dR_dt.floor, ]
 end
 
 first_case_date = Date.parse('5 March 2020') #First confirmed case date http://www.nicd.ac.za/first-case-of-covid-19-coronavirus-reported-in-sa/
@@ -33,8 +33,8 @@ known_active_infectious = positive_cases_identified - deaths - recoveries
 #contact_tracing_efficacy = ?
 
 #cases in icu https://www.iol.co.za/capeargus/news/ten-hospitalised-four-in-icu-as-covid-19-cases-in-western-cape-rise-45706456
-in_icu = 4 #one day old information
-
+icu = 4 #one day old information
+icu_requirement_percentage = 0.06 #https://sacoronavirus.co.za/ states only 6% need ICU
 
 # https://www.worldometers.info/coronavirus/coronavirus-incubation-period/
 coronavirus_incubation_period_highest = 14
@@ -60,12 +60,12 @@ infectious_0 = worst_case_estimated_infectious_cases #I0 estimated worst case of
 suseptible_0 = south_african_population - infectious_0 - removed_0 #S0 South African Population - initial infected and removed
 
 #timeline
-days = 90
+days = 180
 # steps = 17 #Average recovery time for a patient is 17 days https://www.businessinsider.co.za/coronavirus-covid19-day-by-day-symptoms-patients-2020-2?r=US&IR=T
 
 iterations = days
 
-conditions = {suseptible: suseptible_0.floor, infectious: infectious_0.floor, removed: removed_0, deaths: deaths, recoveries: recoveries}
+conditions = {suseptible: suseptible_0.floor, infectious: infectious_0.floor, removed: removed_0, deaths: deaths, recoveries: recoveries, icu: icu, new_icu: icu}
 
 changes_at_timestep = {}
 conditions_at_timestep = {-1 => conditions}
@@ -80,14 +80,19 @@ iterations.times do |iteration|
 
   conditions_at_timestep[iteration][:deaths] = (conditions_at_timestep[iteration][:removed   ] * death_rate).floor
   conditions_at_timestep[iteration][:recoveries] = (conditions_at_timestep[iteration][:removed   ] * recovery_rate).ceil
+
+  conditions_at_timestep[iteration][:new_icu] = (changes_at_timestep[iteration][1] * icu_requirement_percentage).ceil
+  conditions_at_timestep[iteration][:new_icu] = 0 if changes_at_timestep[iteration][1].negative?
+  conditions_at_timestep[iteration][:icu] = conditions_at_timestep[last_iteration][:icu] + conditions_at_timestep[iteration][:new_icu]
+  conditions_at_timestep[iteration][:icu] = conditions_at_timestep[iteration][:icu] - conditions_at_timestep.dig(iteration - (removal_rate * 100).to_i, :new_icu).to_i
 end
 
 require 'csv'
 
 doc = CSV.generate do |csv|
-  csv << %w(date suseptible infectious removed deaths recoveries)
+  csv << %w(date suseptible infectious removed deaths recoveries icu new_icu)
   conditions_at_timestep.each do |k ,v|
-    csv << [current_date+k, v[:suseptible], v[:infectious], v[:removed], v[:deaths], v[:recoveries]]
+    csv << [current_date+k, v[:suseptible], v[:infectious], v[:removed], v[:deaths], v[:recoveries], v[:icu], v[:new_icu]]
   end
 end
 
