@@ -1,0 +1,373 @@
+---
+- :date: 9 March 2020
+  :total: 7
+  :deaths: 0
+  :unnallocated: 0
+  :eastern_cape: 0
+  :kwazulu_natal: 6
+  :mpumalanga: 0
+  :western_cape: 0
+  :northern_cape: 0
+  :north_west: 0
+  :free_state: 0
+  :gauteng: 1
+  :limpopo: 0
+  :sources: 
+    - 'https://www.youtube.com/watch?v=Phf4QjiRez8'
+- :date: 11 March 2020
+  :total: 13
+  :deaths: 0
+  :unnallocated: 0
+  :eastern_cape: 0
+  :kwazulu_natal: 7
+  :mpumalanga: 0
+  :western_cape: 1
+  :northern_cape: 0
+  :north_west: 0
+  :free_state: 0
+  :gauteng: 5
+  :limpopo: 0
+  :sources: 
+    - 'https://www.youtube.com/watch?v=aME0jkwqjV8'
+- :date: 12 March 2020
+  :total: 16
+  :deaths: 0
+  :unnallocated: 0
+  :eastern_cape: 0
+  :kwazulu_natal: 8
+  :mpumalanga: 1
+  :western_cape: 1
+  :northern_cape: 0
+  :north_west: 0
+  :free_state: 0
+  :gauteng: 6
+  :limpopo: 0
+  :sources: 
+    - 'https://www.youtube.com/watch?v=-FWIYIyk23c'
+    - 'https://www.youtube.com/watch?v=GFP4lQ_cmLk'
+- :date: 13 March 2020
+  :tests_done: 924
+  :negative_tests_results: 900
+  :total: 24
+  :deaths: 0
+  :unnallocated: 0
+  :eastern_cape: 0
+  :kwazulu_natal: 10
+  :mpumalanga: 1
+  :western_cape: 3
+  :northern_cape: 0
+  :north_west: 0
+  :free_state: 0
+  :gauteng: 10
+  :limpopo: 0
+  :sources: 
+    - 'https://www.youtube.com/watch?v=m5_mrVowXOsc'
+- :date: 14 March 2020
+  :total: 38
+  :deaths: 0
+  :unnallocated: 0
+  :eastern_cape: 0
+  :kwazulu_natal: 11
+  :mpumalanga: 1
+  :western_cape: 9
+  :northern_cape: 0
+  :north_west: 0
+  :free_state: 0
+  :gauteng: 17
+  :limpopo: 0
+  :sources: 
+    - 'https://www.youtube.com/watch?v=nFk1DTMdn4g'
+- :date: 15 March 2020
+  :total: 51
+  :deaths: 0
+  :unnallocated: 0
+  :eastern_cape: 0
+  :kwazulu_natal: 12
+  :mpumalanga: 1
+  :western_cape: 14
+  :northern_cape: 0
+  :north_west: 0
+  :free_state: 0
+  :gauteng: 24
+  :limpopo: 0
+  :male: 35
+  :female: 16
+  :sources: 
+    - 'https://www.youtube.com/watch?v=-NbbLAT6JPM'
+    - 'https://www.youtube.com/watch?v=p0yOziXbMJs'
+- :date: 16 March 2020
+  :total: 62
+  :deaths: 0
+  :unnallocated: 0
+  :eastern_cape: 0
+  :kwazulu_natal: 12
+  :mpumalanga: 2
+  :western_cape: 16
+  :northern_cape: 0
+  :north_west: 0
+  :free_state: 0
+  :gauteng: 31
+  :limpopo: 1
+  :male: 44
+  :female: 18
+  :sources: 
+    - 'https://www.youtube.com/watch?v=-MFzzKjjdTw'
+    - 'https://www.youtube.com/watch?v=jg0zYTQpdA8'
+- :date: 17 March 2020
+  :total: 85
+  :deaths: 0
+  :unnallocated: 0
+  :eastern_cape: 0
+  :kwazulu_natal: 16
+  :mpumalanga: 2
+  :western_cape: 21
+  :northern_cape: 0
+  :north_west: 0
+  :free_state: 0
+  :gauteng: 45
+  :limpopo: 1
+  :male: 58
+  :female: 27
+  :local_transmissions: 8
+  :sources: 
+    - 'https://www.youtube.com/watch?v=zxFOyKd7M1c'
+    - 'https://www.youtube.com/watch?v=bQOk-WTDRwA'
+- :date: 17 March 2020
+  :total: 116
+  :deaths: 0
+  :unnallocated: 0
+  :eastern_cape: 0
+  :kwazulu_natal: 19
+  :mpumalanga: 4
+  :western_cape: 31
+  :northern_cape: 0
+  :north_west: 0
+  :free_state: 0
+  :gauteng: 61
+  :limpopo: 1
+  :sources: 
+    - 'https://www.youtube.com/watch?v=PTR2gZ72DE0'
+- :date: 18 March 2020
+  :total: 116
+  :deaths: 0
+  :unnallocated: 0
+  :eastern_cape: 0
+  :kwazulu_natal: 19
+  :mpumalanga: 4
+  :western_cape: 31
+  :northern_cape: 0
+  :north_west: 0
+  :free_state: 0
+  :gauteng: 61
+  :limpopo: 1
+  :male: 77
+  :female: 39
+  :local_transmissions: 14
+  :sources: 
+    - 'https://www.youtube.com/watch?v=vtwM-JXqdIc'
+- :date: 19 March 2020
+  :total: 150
+  :deaths: 0
+  :unnallocated: 0
+  :eastern_cape: 0
+  :kwazulu_natal: 22
+  :mpumalanga: 5
+  :western_cape: 46
+  :northern_cape: 0
+  :north_west: 0
+  :free_state: 0
+  :gauteng: 76
+  :limpopo: 1
+  :male: 94
+  :female: 56
+  :local_transmissions: 16
+  :sources: 
+    - 'https://www.youtube.com/watch?v=vLs0HSjZti0'
+    - 'https://www.youtube.com/watch?v=OeEDByQoCQE'
+- :date: 20 March 2020
+  :total: 202
+  :deaths: 0
+  :unnallocated: 0
+  :eastern_cape: 0
+  :kwazulu_natal: 23
+  :mpumalanga: 5
+  :western_cape: 57
+  :northern_cape: 0
+  :north_west: 0
+  :free_state: 7
+  :gauteng: 109
+  :limpopo: 1
+  :gender:
+    - :male: 129
+    - :female: 68
+    - :unknown: 5
+  :local_transmissions: 17
+  :sources: 
+    - 'https://www.youtube.com/watch?v=9lhfy0FWaYI'
+    - 'https://www.youtube.com/watch?v=8ClnABLT-H4'
+- :date: 21 March 2020
+  :total: 240
+  :deaths: 0
+  :unnallocated: 0
+  :eastern_cape: 1
+  :kwazulu_natal: 27
+  :mpumalanga: 5
+  :western_cape: 74
+  :northern_cape: 0
+  :north_west: 0
+  :free_state: 7
+  :gauteng: 125
+  :limpopo: 1
+  :gender:
+    - :male: 147
+    - :female: 88
+    - :unknown: 5
+  :local_transmissions: 17
+  :sources: 
+    - 'https://www.youtube.com/watch?v=-v6d2BKaudo'
+    - 'https://www.youtube.com/watch?v=QI7v9H_k2aM'
+- :date: 22 March 2020
+  :total: 274
+  :tests_done: 9315
+  :negative_tests_results: 9041
+  :deaths: 0
+  :unnallocated: 0
+  :eastern_cape: 2
+  :kwazulu_natal: 36
+  :mpumalanga: 6
+  :western_cape: 88
+  :northern_cape: 0
+  :north_west: 0
+  :free_state: 9
+  :gauteng: 132
+  :limpopo: 1
+  :gender:
+    - :male: 169
+    - :female: 100
+    - :unknown: 5
+  :local_transmissions: 28
+  :sources: 
+    - 'https://www.youtube.com/watch?v=ftMKjeEVz3Q'
+    - 'https://www.youtube.com/watch?v=tWeNtfsX2FI'
+- :date: 23 March 2020
+  :total: 402
+  :deaths: 0
+  :unnallocated: 1
+  :eastern_cape: 2
+  :kwazulu_natal: 60
+  :mpumalanga: 9
+  :western_cape: 100
+  :northern_cape: 2
+  :north_west: 4
+  :free_state: 13
+  :gauteng: 207
+  :limpopo: 4
+  :sources: 
+    - 'https://www.youtube.com/watch?v=9DRg00TP3rs'
+
+- :date: 25 March 2020
+  :total: 709
+  :deaths: 0
+  :unnallocated: 65
+  :eastern_cape: 2
+  :kwazulu_natal: 91
+  :mpumalanga: 8
+  :western_cape: 183
+  :northern_cape: 2
+  :north_west: 5
+  :free_state: 30
+  :gauteng: 319
+  :limpopo: 4
+  :sources: 
+    - 'https://www.youtube.com/watch?v=hriM11grS-g'
+- :date: 26 March 2020
+  :total: 927
+  :deaths: 0
+  :unnallocated: 79
+  :eastern_cape: 5
+  :kwazulu_natal: 134
+  :mpumalanga: 9
+  :western_cape: 229
+  :northern_cape: 2
+  :north_west: 5
+  :free_state: 49
+  :gauteng: 409
+  :limpopo: 6
+  :sources: 
+    - 'https://www.youtube.com/watch?v=ANtAcJovQuU'
+- :date: 27 March 2020
+  :total: 1187
+  :deaths: 1
+  :unnallocated: 117
+  :eastern_cape: 10
+  :kwazulu_natal: 156
+  :mpumalanga: 10
+  :western_cape: 271
+  :northern_cape: 5
+  :north_west: 6
+  :free_state: 68
+  :gauteng: 533
+  :limpopo: 6
+  :sources: 
+    - 'https://www.youtube.com/watch?v=Q2qdSLyRpog'
+- :date: 28 March 2020
+  :total: 1187
+  :deaths: 1
+  :unnallocated: 117
+  :eastern_cape: 10
+  :kwazulu_natal: 156
+  :mpumalanga: 10
+  :western_cape: 271
+  :northern_cape: 5
+  :north_west: 6
+  :free_state: 68
+  :gauteng: 533
+  :limpopo: 11
+  :sources: 
+    - 'https://www.youtube.com/watch?v=Q2qdSLyRpog'
+- :date: 29 March 2020
+  :total: 1280
+  :deaths: 2
+  :unnallocated: 100
+  :eastern_cape: 12
+  :kwazulu_natal: 
+    - :total: 167
+    - :deaths: 1
+  :mpumalanga: 11
+  :western_cape: 
+    - :total: 310
+    - :deaths: 1
+  :northern_cape: 6
+  :north_west: 6
+  :free_state: 72
+  :gauteng: 584
+  :limpopo: 12
+  :sources: 
+    - 'https://www.youtube.com/watch?v=U31UUQd5TVA'
+- :date: 30 March 2020
+  :total: 1326
+  :deaths: 3
+  :unnallocated: 96
+  :eastern_cape: 12
+  :kwazulu_natal: 
+    :total: 171
+    :deaths: 1
+  :mpumalanga: 11
+  :western_cape: 
+    - :deaths: 1
+    - :total: 324
+    - :khayetlisha: 1
+  :northern_cape: 3
+  :north_west: 8
+  :free_state: 
+    :total: 72
+    :deaths: 1
+  :gauteng: 
+    :total: 618
+    :johannesburg:
+      :alexandra: 1
+  :limpopo: 11
+  :sources: 
+    - 'https://www.thesouthafrican.com/news/coronavirus-in-alexandra-township-how-many-cases-deaths/'
+    - 'https://www.youtube.com/watch?v=WOx08LeKY9Q'
+    - 'https://twitter.com/nicd_sa/status/1244707440253448193/photo/1'
