@@ -11,7 +11,7 @@ def SIR_model(conditions, infection_rate, removal_rate, total_population)
   dI_dt = ((infection_rate*suseptible*infectious) / total_population) - removal_rate*infectious #change in infectious
   dR_dt = removal_rate*infectious #change in removed
 
-  [dS_dt.floor, dI_dt.floor, dR_dt.floor, ]
+  [dS_dt.floor, dI_dt.floor, dR_dt.floor]
 end
 
 first_case_date = Date.parse('5 March 2020') #First confirmed case date http://www.nicd.ac.za/first-case-of-covid-19-coronavirus-reported-in-sa/
@@ -23,6 +23,7 @@ south_african_population = 58_780_000 #2019 estimate http://www.statssa.gov.za/p
 recoveries = 32 #reported as of 29 March 2020 sacoronavirus.co.za
 deaths = 2 #reported as of 29 March 2020 sacoronavirus.co.za
 positive_cases_identified = 1280 #reported as of 29 March 2020 sacoronavirus.co.za
+tests_conducted = 35_593 #reported as of 29 March 2020 sacoronavirus.co.za
 
 known_active_infectious = positive_cases_identified - deaths - recoveries
 
@@ -47,7 +48,7 @@ recovery_rate = recoveries.to_f / removed_0 #Portion of removed by recovery
 #south african removal rate based on current values
 #removal_rate = (removed_0.to_f / positive_cases_identified) / pandemic_duration #gamma, ratio of removed to identified averaged over course of pandemic
 #global average removal rate
-removal_rate = 0.17
+removal_rate = 0.17 #Average recovery time for a patient is 17 days https://www.businessinsider.co.za/coronavirus-covid19-day-by-day-symptoms-patients-2020-2?r=US&IR=T
 
 #Worst case estimate that each positively identified case was able to spread the infection the average value before being identified and isolated
 worst_case_estimated_infectious_cases = (positive_cases_identified * infection_rate) 
@@ -65,7 +66,16 @@ days = 180
 
 iterations = days
 
-conditions = {suseptible: suseptible_0.floor, infectious: infectious_0.floor, removed: removed_0, deaths: deaths, recoveries: recoveries, icu: icu, new_icu: icu}
+conditions = {
+  suseptible: suseptible_0.floor, 
+  infectious: infectious_0.floor, 
+  removed: removed_0, 
+  deaths: deaths, 
+  recoveries: recoveries, 
+  icu: icu, 
+  new_icu: icu,
+  tests_conducted: tests_conducted
+}
 
 changes_at_timestep = {}
 conditions_at_timestep = {-1 => conditions}
