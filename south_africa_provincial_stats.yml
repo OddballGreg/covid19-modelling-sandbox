@@ -1,4 +1,44 @@
 ---
+- :date: 5 March 2020
+  :total: 1
+  :unnallocated: 0
+  :deaths: 0
+  :sources:
+  - https://twitter.com/nicd_sa/status/1235545210228224008
+  :tests_done: 0
+  :negative_tests_results: 0
+  :gender:
+    :male: 0
+    :female: 0
+    :unknown: 0
+  :local_transmissions: 0
+  :eastern_cape:
+    :total: 0
+    :deaths: 0
+  :kwazulu_natal:
+    :total: 1
+    :deaths: 0
+  :mpumalanga:
+    :total: 0
+    :deaths: 0
+  :western_cape:
+    :total: 0
+    :deaths: 0
+  :northern_cape:
+    :total: 0
+    :deaths: 0
+  :north_west:
+    :total: 0
+    :deaths: 0
+  :free_state:
+    :total: 0
+    :deaths: 0
+  :gauteng:
+    :total: 0
+    :deaths: 0
+  :limpopo:
+    :total: 0
+    :deaths: 0
 - :date: 9 March 2020
   :total: 7
   :unnallocated: 0
@@ -45,8 +85,9 @@
   :deaths: 0
   :sources:
   - https://www.youtube.com/watch?v=aME0jkwqjV8
-  :tests_done: 0
-  :negative_tests_results: 0
+  - https://twitter.com/nicd_sa/status/1237818297414029315/photo/1
+  :tests_done: 645
+  :negative_tests_results: 632
   :gender:
     :male: 0
     :female: 0
@@ -86,8 +127,9 @@
   :sources:
   - https://www.youtube.com/watch?v=-FWIYIyk23c
   - https://www.youtube.com/watch?v=GFP4lQ_cmLk
-  :tests_done: 0
-  :negative_tests_results: 0
+  - https://twitter.com/nicd_sa/status/1238145900922449923/photo/1
+  :tests_done: 848
+  :negative_tests_results: 832
   :gender:
     :male: 0
     :female: 0
@@ -126,6 +168,7 @@
   :deaths: 0
   :sources:
   - https://www.youtube.com/watch?v=m5_mrVowXOsc
+  - https://twitter.com/nicd_sa/status/1238451955292405761/photo/1
   :tests_done: 924
   :negative_tests_results: 900
   :gender:
@@ -166,8 +209,9 @@
   :deaths: 0
   :sources:
   - https://www.youtube.com/watch?v=nFk1DTMdn4g
-  :tests_done: 0
-  :negative_tests_results: 0
+  - https://twitter.com/nicd_sa/status/1238855321835261952/photo/1
+  :tests_done: 1017
+  :negative_tests_results: 979
   :gender:
     :male: 0
     :female: 0
@@ -207,8 +251,9 @@
   :sources:
   - https://www.youtube.com/watch?v=-NbbLAT6JPM
   - https://www.youtube.com/watch?v=p0yOziXbMJs
-  :tests_done: 0
-  :negative_tests_results: 0
+  - https://twitter.com/nicd_sa/status/1239125447843164162/photo/1
+  :tests_done: 1476
+  :negative_tests_results: 1425
   :gender:
     :male: 0
     :female: 0
@@ -248,8 +293,9 @@
   :sources:
   - https://www.youtube.com/watch?v=-MFzzKjjdTw
   - https://www.youtube.com/watch?v=jg0zYTQpdA8
-  :tests_done: 0
-  :negative_tests_results: 0
+  - https://twitter.com/nicd_sa/status/1239519650825805825/photo/1
+  :tests_done: 2405
+  :negative_tests_results: 2343
   :gender:
     :male: 0
     :female: 0
@@ -289,8 +335,9 @@
   :sources:
   - https://www.youtube.com/watch?v=zxFOyKd7M1c
   - https://www.youtube.com/watch?v=bQOk-WTDRwA
-  :tests_done: 0
-  :negative_tests_results: 0
+  - https://twitter.com/nicd_sa/status/1240135996622155777/photo/1
+  :tests_done: 2911
+  :negative_tests_results: 2826
   :gender:
     :male: 0
     :female: 0
@@ -323,54 +370,15 @@
   :limpopo:
     :total: 1
     :deaths: 0
-- :date: 17 March 2020
-  :total: 116
-  :unnallocated: 0
-  :deaths: 0
-  :sources:
-  - https://www.youtube.com/watch?v=PTR2gZ72DE0
-  :tests_done: 0
-  :negative_tests_results: 0
-  :gender:
-    :male: 0
-    :female: 0
-    :unknown: 0
-  :local_transmissions: 0
-  :eastern_cape:
-    :total: 0
-    :deaths: 0
-  :kwazulu_natal:
-    :total: 19
-    :deaths: 0
-  :mpumalanga:
-    :total: 4
-    :deaths: 0
-  :western_cape:
-    :total: 31
-    :deaths: 0
-  :northern_cape:
-    :total: 0
-    :deaths: 0
-  :north_west:
-    :total: 0
-    :deaths: 0
-  :free_state:
-    :total: 0
-    :deaths: 0
-  :gauteng:
-    :total: 61
-    :deaths: 0
-  :limpopo:
-    :total: 1
-    :deaths: 0
 - :date: 18 March 2020
   :total: 116
   :unnallocated: 0
   :deaths: 0
   :sources:
   - https://www.youtube.com/watch?v=vtwM-JXqdIc
-  :tests_done: 0
-  :negative_tests_results: 0
+  - https://twitter.com/nicd_sa/status/1240186214659100672/photo/1
+  :tests_done: 4070
+  :negative_tests_results: 2954
   :gender:
     :male: 0
     :female: 0
@@ -410,8 +418,9 @@
   :sources:
   - https://www.youtube.com/watch?v=vLs0HSjZti0
   - https://www.youtube.com/watch?v=OeEDByQoCQE
-  :tests_done: 0
-  :negative_tests_results: 0
+  - https://twitter.com/nicd_sa/status/1240628563004489728/photo/1
+  :tests_done: 4832
+  :negative_tests_results: 4682
   :gender:
     :male: 0
     :female: 0
@@ -451,8 +460,9 @@
   :sources:
   - https://www.youtube.com/watch?v=9lhfy0FWaYI
   - https://www.youtube.com/watch?v=8ClnABLT-H4
-  :tests_done: 0
-  :negative_tests_results: 0
+  - https://twitter.com/nicd_sa/status/1241002971418234880/photo/1
+  :tests_done: 6438
+  :negative_tests_results: 6236
   :gender:
     :male: 129
     :female: 68
@@ -492,8 +502,9 @@
   :sources:
   - https://www.youtube.com/watch?v=-v6d2BKaudo
   - https://www.youtube.com/watch?v=QI7v9H_k2aM
-  :tests_done: 0
-  :negative_tests_results: 0
+  - https://twitter.com/nicd_sa/status/1241320489794101248/photo/1
+  :tests_done: 7425
+  :negative_tests_results: 7185
   :gender:
     :male: 147
     :female: 88
@@ -533,6 +544,7 @@
   :sources:
   - https://www.youtube.com/watch?v=ftMKjeEVz3Q
   - https://www.youtube.com/watch?v=tWeNtfsX2FI
+  - https://twitter.com/nicd_sa/status/1241790039228645378/photo/1
   :tests_done: 9315
   :negative_tests_results: 9041
   :gender:
@@ -573,8 +585,9 @@
   :deaths: 0
   :sources:
   - https://www.youtube.com/watch?v=9DRg00TP3rs
-  :tests_done: 0
-  :negative_tests_results: 0
+  - https://twitter.com/nicd_sa/status/1242058380572798976/photo/1
+  :tests_done: 12815
+  :negative_tests_results: 12413
   :gender:
     :male: 0
     :female: 0
@@ -607,12 +620,53 @@
   :limpopo:
     :total: 4
     :deaths: 0
+- :date: 24 March 2020
+  :total: 554
+  :unnallocated: 0
+  :deaths: 0
+  :sources:
+  - https://twitter.com/nicd_sa/status/1242439230359515136/photo/1
+  :tests_done: 15529
+  :negative_tests_results: 14975
+  :gender:
+    :male: 0
+    :female: 0
+    :unknown: 0
+  :local_transmissions: 0
+  :eastern_cape:
+    :total: 0
+    :deaths: 0
+  :kwazulu_natal:
+    :total: 0
+    :deaths: 0
+  :mpumalanga:
+    :total: 0
+    :deaths: 0
+  :western_cape:
+    :total: 0
+    :deaths: 0
+  :northern_cape:
+    :total: 0
+    :deaths: 0
+  :north_west:
+    :total: 0
+    :deaths: 0
+  :free_state:
+    :total: 0
+    :deaths: 0
+  :gauteng:
+    :total: 0
+    :deaths: 0
+  :limpopo:
+    :total: 0
+    :deaths: 0
 - :date: 25 March 2020
   :total: 709
   :unnallocated: 65
   :deaths: 0
   :sources:
   - https://www.youtube.com/watch?v=hriM11grS-g
+  - https://twitter.com/nicd_sa/status/1242823142684463105/photo/1
   :tests_done: 0
   :negative_tests_results: 0
   :gender:
@@ -652,9 +706,10 @@
   :unnallocated: 79
   :deaths: 0
   :sources:
+  - https://twitter.com/nicd_sa/status/1243203682524676097/photo/1
   - https://www.youtube.com/watch?v=ANtAcJovQuU
-  :tests_done: 0
-  :negative_tests_results: 0
+  :tests_done: 20471
+  :negative_tests_results: 19544
   :gender:
     :male: 0
     :female: 0
@@ -688,12 +743,13 @@
     :total: 6
     :deaths: 0
 - :date: 27 March 2020
-  :total: 1187
+  :total: 1170
   :unnallocated: 117
   :deaths: 1
   :sources:
   - https://www.youtube.com/watch?v=Q2qdSLyRpog
-  :tests_done: 0
+  - https://twitter.com/nicd_sa/status/1243616028648751104/photo/1
+  :tests_done: 28537
   :negative_tests_results: 0
   :gender:
     :male: 0
@@ -733,7 +789,8 @@
   :deaths: 1
   :sources:
   - https://www.youtube.com/watch?v=Q2qdSLyRpog
-  :tests_done: 0
+  - https://twitter.com/nicd_sa/status/1243974640281796608/photo/1
+  :tests_done: 31963
   :negative_tests_results: 0
   :gender:
     :male: 0
@@ -751,7 +808,7 @@
     :deaths: 0
   :western_cape:
     :total: 271
-    :deaths: 0
+    :deaths: 1
   :northern_cape:
     :total: 5
     :deaths: 0
@@ -773,7 +830,8 @@
   :deaths: 2
   :sources:
   - https://www.youtube.com/watch?v=U31UUQd5TVA
-  :tests_done: 0
+  - https://twitter.com/nicd_sa/status/1244339420637134848/photo/1
+  :tests_done: 35593
   :negative_tests_results: 0
   :gender:
     :male: 0
@@ -856,7 +914,8 @@
   :sources:
   - https://www.youtube.com/watch?v=pfHYoKYbztg
   - https://www.youtube.com/watch?v=WWbny6BH9GM
-  :tests_done: 0
+  - https://twitter.com/nicd_sa/status/1245021759092527105/photo/1
+  :tests_done: 41072
   :negative_tests_results: 0
   :gender:
     :male: 0
@@ -868,7 +927,7 @@
     :deaths: 0
   :kwazulu_natal:
     :total: 179
-    :deaths: 1
+    :deaths: 2
   :mpumalanga:
     :total: 12
     :deaths: 0
@@ -886,7 +945,7 @@
     :deaths: 1
   :gauteng:
     :total: 633
-    :deaths: 0
+    :deaths: 1
   :limpopo:
     :total: 14
     :deaths: 0
