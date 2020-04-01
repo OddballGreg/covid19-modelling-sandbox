@@ -371,3 +371,28 @@
     - 'https://www.thesouthafrican.com/news/coronavirus-in-alexandra-township-how-many-cases-deaths/'
     - 'https://www.youtube.com/watch?v=WOx08LeKY9Q'
     - 'https://twitter.com/nicd_sa/status/1244707440253448193/photo/1'
+- :date: 31 March 2020
+  :total: 1353
+  :deaths: 4
+  # :unnallocated: 96
+  # :eastern_cape: 12
+  # :kwazulu_natal: 
+  #   :total: 171
+  #   :deaths: 1
+  # :mpumalanga: 11
+  # :western_cape: 
+  #   - :deaths: 1
+  #   - :total: 324
+  #   - :khayetlisha: 1
+  # :northern_cape: 3
+  # :north_west: 8
+  # :free_state: 
+  #   :total: 72
+  #   :deaths: 1
+  # :gauteng: 
+  #   :total: 618
+  #   :johannesburg:
+  #     :alexandra: 1
+  # :limpopo: 11
+  :sources: 
+    - 'https://www.youtube.com/watch?v=pfHYoKYbztg'
